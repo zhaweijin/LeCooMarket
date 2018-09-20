@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grobal_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/widget65"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/list_selector" >
+
+        <LinearLayout
+            android:id="@+id/ima"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="6dip"
+            android:background="@drawable/lc_b" >
+
+            <ImageView
+                android:id="@+id/category_image"
+                android:layout_width="45dip"
+                android:layout_height="45dip"
+                android:layout_margin="1.5dip" >
+            </ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ima"
+            android:layout_marginLeft="3dip"
+            android:singleLine="true"
+            android:text="name"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_l" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/asset_detail" >
+        </ImageView>
+    </RelativeLayout>
+
+</RelativeLayout>

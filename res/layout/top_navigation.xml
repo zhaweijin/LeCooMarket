@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_navigation"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/grobal_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_navigation1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/list_header_bar_bg_light"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/linear_left"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/top_bar_height"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linet"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/top_bar_height"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical" >
+            </LinearLayout>
+            <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Left"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@drawable/top_my_tab_text_selector"
+                    android:textSize="@dimen/top_bar_font_size" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linear_center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/top_bar_height"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/lnter"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/top_bar_height"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical" >
+            </LinearLayout>
+            <TextView
+                    android:id="@+id/center_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@drawable/top_my_tab_text_selector"
+                    android:textSize="@dimen/top_bar_font_size" >
+                </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linear_right"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/top_bar_height"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linght"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/top_bar_height"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical" >               
+            </LinearLayout>
+            <TextView
+                    android:id="@+id/right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Right"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@drawable/top_my_tab_text_selector"
+                    android:textSize="@dimen/top_bar_font_size" >
+                </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

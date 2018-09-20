@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="图标设置" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkbox_display_icons"
+            android:summaryOff="关闭图标,更节省流量"
+            android:summaryOn="显示图标"
+            android:title="加载图标" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="checkbox_display_icons"
+            android:key="checkbox_buffer_icons"
+            android:summaryOff="加载图标不保存到手机当中"
+            android:summaryOn="加载图标保存到手机当中"
+            android:title="缓冲图标到手机" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="下载设置" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkbox_allow_without_wifi"
+            android:summaryOff="不允许GPRS网络情况下下载"
+            android:summaryOn="允许有GPRS网络的情况下下载"
+            android:title="允许其它网络下载应用" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="其它设置" >
+        <Preference
+            android:key="data_clean"
+            android:summary="清除手机下载的图标及安装文件"
+            android:title="清除缓存" />
+
+        <!--
+             <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkbox_reboot_start"
+            android:summaryOff="关闭手机开机加载市场更新通知"
+            android:summaryOn="开启手机开机加载市场更新通知"
+            android:title="加载市场更新通知" />
+        -->
+        <!--
+            <CheckBoxPreference android:title="转屏"
+			android:key="checkbox_switch_display_start" 
+			android:defaultValue="true" android:summaryOn="只允许竖屏"
+			android:summaryOff="允许横竖屏" />
+        -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

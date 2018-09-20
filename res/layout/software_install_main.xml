@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grobal_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/include_top"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/other_top_bar_weight_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/list_header_bar_bg_weight"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/asset_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:singleLine="true"
+            android:text="装机必备"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_size_l" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include_top"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/main_progressbar"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progressbar"
+        android:visibility="gone" >
+    </ProgressBar>
+
+    <LinearLayout
+        android:id="@+id/special_buttom_navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/buttom_top_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/information_download_background"
+        android:orientation="vertical" >
+        
+        <Button
+            android:id="@+id/install_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_install_image"
+            android:focusable="false"
+            android:text="一键安装"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_l" >
+        </Button>
+
+    </LinearLayout>
+</RelativeLayout>

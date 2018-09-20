@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:background="@color/grobal_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/widget47"
+        android:layout_width="fill_parent"
+        android:background="@drawable/list_selector"
+        android:layout_height="60dip" >
+
+        <LinearLayout
+            android:id="@+id/layout_image"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="6dip"
+            android:background="@drawable/lc_b"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/software_image"
+                android:layout_width="45dip"
+                android:layout_height="45dip"
+                android:layout_margin="1.5dip" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/uninstall"
+            android:layout_toRightOf="@+id/layout_image"
+            android:layout_marginLeft="4dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/software_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="105dip"
+                android:ellipsize="marquee"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_l" >
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/software_updata_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_size_m" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/install_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:focusable="false"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_size_m"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/delete"
+            android:layout_width="48dip"
+            android:layout_height="fill_parent"           
+            android:focusable="false"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/verticalline1"
+            android:drawableTop="@drawable/ic_manager_delete"
+            android:text="删除"
+            android:paddingTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_size_s" >
+      >
+      </Button>
+
+      <ImageView
+            android:id="@+id/verticalline1"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/vertical_line"
+            android:layout_toLeftOf="@+id/install"
+            android:layout_height="45dip" >
+        </ImageView>
+
+
+        <TextView
+                android:id="@+id/install"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="48dip"
+                android:layout_height="fill_parent"
+                android:drawableTop="@drawable/btn_downloading"
+                android:text="安装"
+                android:gravity="center"
+                android:layout_marginBottom="5dip"
+                android:paddingTop="5dip"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_size_s" >
+        >
+        </TextView>
+
+
+</RelativeLayout>
+
+</RelativeLayout>

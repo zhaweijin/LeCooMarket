@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grobal_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/information_buttom_download_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        
+        android:orientation="horizontal" >
+
+        <LinearLayout
+android:id="@+id/layout_do_search"
+android:layout_width="55dip"
+android:layout_height="45dip"
+android:layout_alignParentRight="true"
+android:orientation="horizontal"
+>
+<Button
+            android:id="@+id/do_search"
+            android:layout_width="35dip"
+            android:layout_height="35dip"   
+            android:layout_marginLeft="5dip"        
+            android:background="@drawable/search"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black" />
+</LinearLayout>
+        
+        
+
+        <AutoCompleteTextView
+            android:id="@+id/search_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/layout_do_search"
+            android:layout_weight="1.0"
+            android:background="@drawable/inputbox_bkg"
+            android:hint="搜索精彩应用"
+            android:paddingRight="35.0dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true" >
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/clear_text"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_alignRight="@+id/search_text"
+            android:layout_marginRight="3.0dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/list_search_icon_close" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/search_hot_search"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/information_bar_height"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/search_bar"
+        android:background="@drawable/list_header_bar_bg_light" >
+
+        <RelativeLayout
+            android:id="@+id/hot"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/information_bar_height"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/layout_shot"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/information_bar_height"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="center"
+                android:orientation="vertical" >
+               
+            </LinearLayout>
+             <TextView
+                    android:id="@+id/texthot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="实时热点"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@drawable/top_my_tab_text_selector"
+                    android:textSize="@dimen/information_bar_font_size" >
+                </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_result_button"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/information_bar_height"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/searon"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/information_bar_height"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dip"
+                android:gravity="center"
+                android:orientation="vertical" >
+            </LinearLayout>
+             <TextView
+                    android:id="@+id/searchbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="搜索结果"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@drawable/top_my_tab_text_selector"
+                    android:textSize="@dimen/information_bar_font_size" >
+                </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/search_hot_search"
+        android:background="@drawable/top_bar_buttom_line"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/layout_add_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/top_bar"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget28"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dip"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <include android:id="@+id/include_network_failed" layout="@layout/network_connetion_failed"
+        android:layout_centerInParent="true" android:visibility="gone"/>
+    
+    
+    <ProgressBar
+        android:id="@+id/main_progressbar"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dip"
+        android:indeterminateDrawable="@drawable/progressbar"
+        android:visibility="gone" >
+    </ProgressBar>
+
+</RelativeLayout>

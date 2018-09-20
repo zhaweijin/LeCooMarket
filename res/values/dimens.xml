@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="space_small">6.0dip</dimen>
+    <dimen name="space_small_h">8.0dip</dimen>
+    <dimen name="space_medium">10.0dip</dimen>
+    <dimen name="space_medium_h">14.0dip</dimen>
+    <dimen name="space_large">20.0dip</dimen>
+    <dimen name="space_large_h">28.0dip</dimen>
+    <dimen name="width_small">54.0dip</dimen>
+    <dimen name="height_small">12.0dip</dimen>
+    <dimen name="width_medium">90.0dip</dimen>
+    <dimen name="height_medium">20.0dip</dimen>
+    <dimen name="width_large">180.0dip</dimen>
+    <dimen name="height_large">40.0dip</dimen>
+    <dimen name="indicator_size">10.0dip</dimen>
+    <dimen name="indicator_step_width">16.0dip</dimen>
+    <dimen name="font_size_l">18.0sp</dimen>
+    <dimen name="font_size_m">15.0sp</dimen>
+    <dimen name="font_size_s">13.0sp</dimen>
+    
+    
+    
+    <dimen name="font_size_buttom_bar">14.0sp</dimen>
+
+    
+    <!-- main top bar -->
+    <dimen name="top_bar_height">50dip</dimen>
+    <dimen name="top_bar_height_select">50dip</dimen>
+    <dimen name="top_bar_height_select_div">6dip</dimen>
+    <dimen name="top_bar_font_size">17.0sp</dimen>
+    
+    <dimen name="other_top_bar_weight_height">45dip</dimen>
+    
+    
+    <dimen name="buttom_top_height">50dip</dimen>
+    
+    <!-- search and information tab bar -->
+    <dimen name="information_bar_height">40dip</dimen>
+    <dimen name="information_bar_height_select">35dip</dimen>
+    <dimen name="information_bar_height_div">5dip</dimen>
+    
+    <dimen name="information_bar_font_size">16.0sp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_tab_search" android:maxLevel="0" />
+    <item android:drawable="@drawable/ic_tab_search_pressed" android:maxLevel="1" />
+</level-list>

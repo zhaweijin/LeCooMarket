@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:orientation="vertical"
+    android:background="@color/grobal_background"
+    android:layout_height="fill_parent">
+    <!-- 中间动态加载View -->
+    <LinearLayout android:measureAllChildren="true" android:id="@+id/containerBody"
+        android:layout_weight="1" android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+    </LinearLayout>
+    <include android:id="@+id/include_up" layout="@layout/buttom_navigation">
+	</include>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/free" android:maxLevel="0" />
+    <item android:drawable="@drawable/installing" android:maxLevel="1" />
+    <item android:drawable="@drawable/manager_install" android:maxLevel="2" />
+    <item android:drawable="@drawable/installed" android:maxLevel="3" />
+    <item android:drawable="@drawable/manager_update" android:maxLevel="4" />
+    <item android:drawable="@drawable/open" android:maxLevel="5" />
+</level-list>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layoutAnimation android:delay="0.0" android:animation="@anim/listview_bottom_progressbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

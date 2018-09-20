@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grobal_background"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/other_top_bar_weight_height"
+        layout="@layout/software_info_header" />
+
+    <ScrollView
+        android:id="@+id/content_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@color/grobal_background"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grobal_background"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="10dip"
+                android:text="@string/error_type_title"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_m" />
+
+            <RadioGroup
+                android:id="@+id/error_type_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/error_type_1"
+                    style="@style/ErrorTypeRadio"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="@string/error_type_1" />
+
+                <RadioButton
+                    android:id="@+id/error_type_2"
+                    style="@style/ErrorTypeRadio"
+                    android:text="@string/error_type_2" />
+
+                <RadioButton
+                    android:id="@+id/error_type_3"
+                    style="@style/ErrorTypeRadio"
+                    android:text="@string/error_type_3" />
+
+                <RadioButton
+                    android:id="@+id/error_type_4"
+                    style="@style/ErrorTypeRadio"
+                    android:text="@string/error_type_4" />
+
+                <RadioButton
+                    android:id="@+id/error_type_5"
+                    style="@style/ErrorTypeRadio"
+                    android:text="@string/error_type_5" />
+
+                <RadioButton
+                    android:id="@+id/error_type_6"
+                    style="@style/ErrorTypeRadio"
+                    android:checked="true"
+                    android:text="@string/error_type_6" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/error_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:gravity="top"
+                android:hint="@string/hint_error_content"
+                android:lines="8"
+                android:textSize="@dimen/font_size_m" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ok_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/information_download_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout_ok_bton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="2.0"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout_ok_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/buttom_top_height"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/ok_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_comment_comment_ok"
+                    android:gravity="center"
+                    android:paddingTop="3dip"
+                    android:text="@string/ok"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_size_m" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="2.0"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout_cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/buttom_top_height"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/cancel_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_manager_cancel"
+                    android:gravity="center"
+                    android:paddingTop="3dip"
+                    android:text="@string/cancel"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_size_m" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

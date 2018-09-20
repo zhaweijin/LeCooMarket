@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grobal_background"
+    android:orientation="vertical" >
+	
+    
+    <LinearLayout
+        android:id="@+id/include_top"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:background="@drawable/list_header_bar_bg_light"
+        android:orientation="horizontal" >
+		</LinearLayout>
+        <LinearLayout
+            android:id="@+id/top_title"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@+id/include_top"
+            android:background="@drawable/manager_top_bar_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/widget29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/installed"
+                    android:layout_width="125dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center"
+                    android:text="最新上传"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/has_update"
+                    android:layout_width="125dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center"
+                    android:text="最多下载"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+		
+        <LinearLayout
+            android:id="@+id/layout_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/top_title"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/main_progressbar"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progressbar"
+            android:visibility="gone" >
+        </ProgressBar>
+    
+
+</RelativeLayout>

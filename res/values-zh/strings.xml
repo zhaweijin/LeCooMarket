@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="productID">1234567</string>
+    <string name="app_name"> 乐酷市场</string>
+
+    <!-- common -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- software information -->
+    <string name="asset_info_title">简介</string>
+    <string name="error_type_title">选择错误类型:</string>
+    <string name="error_type_1">不能安装</string>
+    <string name="error_type_2">能安装但不能运行</string>
+    <string name="error_type_3">软件出错被强制关闭</string>
+    <string name="error_type_4">软件与商店中的描述不符</string>
+    <string name="error_type_5">软件包含不良内容</string>
+    <string name="error_type_6">其他问题</string>
+    <string name="choose_error_type">请选择错误类型</string>
+    <string name="report_error_error">对不起，发送失败</string>
+    <string name="report_error_success">发送成功</string>
+    <string name="hint_error_content">您可以在此添加更详细的描述</string>
+
+    <!-- tuijian -->
+    <string name="exit_dlg_title">确定退出</string>
+    <string name="exit_dlg_msg">确定要退出乐酷市场吗？</string>
+    <string name="update_or_not_dlg_msg">系统检测到乐酷市场发布了新版本，是否升级？\n</string>
+
+    <!-- add comment -->
+    <string name="comment_hint">评分后在此添加评论</string>
+    <string name="rating_label">请评分</string>
+    <string name="comment_succes">评论成功</string>
+    <string name="comment_error">评论失败</string>
+    <string name="comment_substance">评论内容超出200个字！</string>
+    <!-- <string name="comment_cryptonym_user">匿名用户</string> -->
+    <string name="comment_substance_empty">评论内容不能为空！</string>
+    <string name="comment_my_comment">我的评论</string>
+    <string name="comment_ProgressDialog">提交中，请稍后！</string>
+
+    <!-- informationcomment -->
+    <string name="commtent_currently_now">当前共有【</string>
+    <string name="commtent_currently">】条评论</string>
+    <string name="commtent_none">暂无评论</string>
+    <string name="commtent_keep">收藏</string>
+    <string name="commtent_keep_cancel">取消收藏</string>
+    <string name="commtent_already_download_cancel">已经取消下载</string>
+
+    <!-- feedback -->
+    <string name="feedback_text_about">		\t\t乐酷市场是一款基于安卓（Android）\t智能手机平台下开发的商店类应用软件\t，
+		可适用于Android1.6 固件以上系统各版本，并永远免费服务于安卓机友下载和安装使用。
+		\n\t\t已安装乐酷市场的用户无需注册和登陆即可放心下载和使用上万款软件和游戏\t。
+		市场里面精细的应用分类，简单明了的操作，简洁舒服的友好界面，
+		多线程优化下的飞一般下载速度\t，都是您打造一台主流智能手机不可缺少的伙伴！</string>
+    <string name="feedback_text_about2">\t\t任何使用乐酷市场产品的用户均应仔细阅读本声明，用户可选择不使用乐酷市场产品，用户使用乐酷市场产品的行为将被视为对本声明全部内容的认可。\n
+                     1、除乐酷市场注明之服务条款外，其他一切因使用乐酷市场产品而引致之任何意外、疏忽、合约毁坏、诽谤、版权或知识产权侵犯及其所造成的损失（包括因下载而感染手机恶意软件等），乐酷市场概不负责，亦不承担任何法律责任。\n
+                     2、任何通过乐酷市场的页面而链接及得到之资讯、产品、下载信息及服务均系用户自行发布，乐酷市场对其合法性概不负责，亦不承担任何法律责任。\n
+                     3、乐酷市场所有内容并不反映任何乐酷市场之意见。\n
+                     4、任何单位或个人认为通过乐酷市场的内容可能涉嫌侵犯其合法权益，应该及时向乐酷市场书面反馈，并提供身份证明、权属证明及详细侵权情况证明，乐酷市场在收到上述法律文件后，将会尽快移除被控侵权内容。\n
+                     以上声明内容的解释权归乐酷市场所有。\n</string>
+    <string name="web_cannot_connection">温馨提示!</string>
+    <string name="web_load_timeout">网络超时!</string>
+    <string name="web_message">当前网络不可用，请检查您的网络设置</string>
+
+    <!-- register -->
+    <string name="recoment_cannot_empty">内容不能为空!</string>
+    <string name="register_namelength_small">用户名长度必须大于2个字符</string>
+    <string name="register_passwordlength_small">密码长度必须大于6个字符</string>
+    <string name="register_password_two_discord">密码不一致，请重新输入！</string>
+    <string name="register_email_error">email地址不正确，请重新输入！</string>
+    <string name="register_account">注册新的账号</string>
+    <string name="login_user">账户:</string>
+    <string name="password">密码:</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="managerrow_version">版本:</string>
+    <string name="manager">管理</string>
+    <string name="welcome_login">欢迎使用登录</string>
+    <string name="register">注册</string>
+    <string name="register_commit">提交资料</string>
+    <string name="register_user">登录账户:</string>
+    <string name="register_password">登录密码:</string>
+    <string name="version">版本</string>
+    <string name="paihangbang">排行榜</string>
+    <string name="fenlei_name">分类</string>
+    <string name="register_ok">注册成功!</string>
+    <string name="register_error">该用户名已存在，请使用其它名字</string>
+    <string name="login_out">登出</string>
+    <string name="login_in">登录:</string>
+    <string name="login">登录</string>
+    <string name="exit_title">温馨提示!</string>
+    <string name="exit_message">确定退出乐酷市场吗?</string>
+
+    <!-- categorytabhost -->
+    <string name="categorytabhost_application">应用</string>
+    <string name="categorytabhost_game">游戏</string>
+    <string name="categorytabhost_topic">专题</string>
+
+    <!-- networkException -->
+    <string name="networkexception_retry">重试</string>
+    <string name="networkexception_cancel">取消</string>
+    <string name="login_wenxun_tishi">		温馨提示：注册后下载软件/游戏获积分（积分自动对应等级，达到一定等级可送话费或兑换其它物品）活动即将上线，敬请期待。</string>
+
+</resources>

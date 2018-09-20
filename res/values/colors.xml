@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="solid_red">#ffff0000</color>
+    <color name="solid_blue">#ff0000ff</color>
+    <color name="solid_green">#ff00ff00</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="title_bar_shadow">#00000000</color>
+    <color name="shadow">#00000000</color>
+    <color name="hint_foreground_light">#ff808080</color>
+    <color name="silver_grey">#ff868686</color>
+    <color name="perms_dangerous_grp_color">#ffdd6826</color>
+    <color name="perms_dangerous_perm_color">#ffdd6826</color>
+    <color name="title_background">#ff828282</color>
+    <color name="view_background">#ff1c1c1c</color>
+    <color name="loading_line">#ff003c80</color>
+    <color name="search_tag">#ff2f6aba</color>
+    <color name="comment_reply">#ff2f8a23</color>
+    <color name="list_btn">#FFCC66</color>
+    <color name="listview_cacheColorHint">#ff000000</color>
+    <color name="login_upcolor">#FF2C75D1</color>
+    
+    
+    
+    
+    
+   <color name="green">#0F0</color> 
+   <color name="main_list_background_color">#CCCCCC</color> 
+   <color name="white">#FFFFFF</color>  
+   
+   <color name="black">#000000</color> 
+   <color name="one">#CCCCCC</color> 
+   <color name="two">#F5F4EF</color> 
+   <color name="main_mid">#999999</color> 
+   <color name="pink">#E95477</color> 
+   <color name="red">#f00</color> 
+   <color name="blue">#00f</color> 
+   <color name="aa">#222</color> 
+   <color name="fenlei_background">#525252</color> 
+   <color name="logincolor">#909090</color> 
+   <color name="qianhui">#4D4D4D</color> 
+   <color name="test">#FF0000</color> 
+   <color name="softinfo_background">#1c88d0</color>
+   <color name="background">#F5F4EF</color> 
+   <color name="coment_top">#EFEFEF</color> 
+   
+   <color name="gallery_background">#DCDCDC</color>
+   <color name="row_color">#FAFCFE</color>
+   <color name="row_color2">#FAFCFE</color>
+   <color name="download">#66E32E</color>
+   
+   <color name="grobal_background">#f5f6f7</color>
+   <color name="text_gray">#8b8c8c</color>
+
+   <color name="information_gallery_background">#D4DBE4</color>
+   <color name="information_buttom_download_background">#eaf1fb</color>
+   
+   <color name="pandeng">#dd7f05</color>
+   <color name="shafa">#f02c0b</color>
+   <color name="deban">#d3c313</color>
+   <color name="comment_other_textcolor">#4ab53c</color>
+   
+
+</resources>

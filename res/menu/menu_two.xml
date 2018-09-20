@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="@drawable/setting"
+		android:id="@+id/itemSetting" android:title="设置" />
+	<item android:icon="@drawable/account" android:id="@+id/itemUser"
+	    android:enabled="false"
+		android:title="我的账户" />
+	<item android:icon="@drawable/contact" android:id="@+id/itemContact"
+		android:title="手动更新" />
+	<item android:icon="@drawable/about" android:id="@+id/itemAbout"
+		android:title="关于" />
+</menu>

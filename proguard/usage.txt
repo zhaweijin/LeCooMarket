@@ -1,0 +1,486 @@
+android.content.pm.IPackageStatsObserver$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_onGetStatsCompleted
+    29:36:public static android.content.pm.IPackageStatsObserver asInterface(android.os.IBinder)
+android.content.pm.IPackageStatsObserver$Stub$Proxy
+com.feedback.NotificationType
+com.feedback.UMFeedbackService:
+    private static com.feedback.NotificationType a
+    private static android.content.Context b
+    private static void b(java.lang.String)
+    public static void openUmengFeedbackSDK(android.content.Context)
+    public static void enableNewReplyNotification(android.content.Context,com.feedback.NotificationType)
+    static android.content.Context a()
+    static void a(java.lang.String)
+com.feedback.a
+com.feedback.a.d:
+    public com.feedback.a.d a(com.feedback.a.a)
+com.feedback.b
+com.feedback.b.a:
+    public static void c(android.content.Context)
+com.feedback.b.b:
+    public static int a(org.json.JSONObject)
+com.feedback.b.d:
+    static final java.lang.String a
+    public static final int b
+    public static java.lang.String b(java.lang.String)
+com.feedback.c
+com.feedback.c.b:
+    java.lang.String d
+    java.lang.String e
+    int f
+    int g
+com.feedback.c.c:
+    public c(android.content.Context,int)
+    public c(android.content.Context,android.os.Handler)
+com.feedback.ui.FeedbackConversations:
+    private static final int c
+    private static final int d
+    private static final int e
+    private static final int f
+    private static final int g
+com.feedback.ui.ThreadView
+com.feedback.ui.c:
+    java.lang.String c
+com.feedback.ui.g:
+    org.json.JSONArray d
+    java.lang.String[] e
+    public com.feedback.a.e a(int)
+com.lecootech.market.AddCommentActivity:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    189:204:public void networkException(java.lang.String)
+com.lecootech.market.AddCommentActivity$4
+com.lecootech.market.AddCommentActivity$5
+com.lecootech.market.InformationCommentActivity:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    private android.widget.LinearLayout layout
+    private android.widget.LinearLayout layout_progressLayout
+    private static final int displayDownloading
+com.lecootech.market.InformationDescriptionActivity:
+    private android.widget.LinearLayout layout
+    private android.view.View progressView
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    private android.webkit.WebView jieshao
+    private android.widget.Button software_share_Button
+    private android.widget.Button reportButton
+    private android.widget.LinearLayout reportError
+    private static final int downloadProgress
+    private static final int loadingOtherGallery
+    private static final int displayDownloading
+    private static final int loadingGallery
+    694:703:public void reportErrorEvent()
+    906:907:public android.view.View getProgressView()
+com.lecootech.market.InformationDescriptionActivity$11
+com.lecootech.market.Login:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    287:302:public void networkException(java.lang.String)
+com.lecootech.market.Login$4
+com.lecootech.market.Login$5
+com.lecootech.market.Register:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    227:242:public void networkException(java.lang.String)
+com.lecootech.market.Register$3
+com.lecootech.market.Register$4
+com.lecootech.market.ReportErrorActivity:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    private android.widget.ImageButton back
+    private static final int send_failed
+    259:285:public void networkException(java.lang.String)
+com.lecootech.market.ReportErrorActivity$6
+com.lecootech.market.ReportErrorActivity$7
+com.lecootech.market.SoftwareCategoryActivity:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+com.lecootech.market.SoftwareDownloadActivity:
+    public static final int UN_INSTALL
+com.lecootech.market.SoftwareInstallActivity:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    private java.lang.String currentCategoryID
+    324:384:public void setListviewOnScrollStateChange()
+com.lecootech.market.SoftwareInstallActivity$3
+com.lecootech.market.SoftwareInstallActivity$3$1
+com.lecootech.market.SoftwareManagerActivity:
+    public static final int UN_INSTALL
+    475:486:public void updateManagerFloor()
+com.lecootech.market.SoftwareRecommendedActivity:
+    private android.widget.ListView listView
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    private static final int display_icon
+    private static final int update_maket
+    private static final int update_market_tips
+    private static final int progress_cancel
+    704:704:public void reLoadingListViewTopLayout()
+    760:772:public void addOtherListview()
+com.lecootech.market.SoftwareSearchActivity:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    private android.widget.LinearLayout layoutlistView
+    598:603:public void underline(int,int,android.widget.TextView)
+com.lecootech.market.SoftwareThridFloorActivity:
+    android.os.Bundle bundle
+com.lecootech.market.SoftwareTopActivity:
+    com.lecootech.market.common.SharedPrefsUtil realmname
+    private static final int paihang
+com.lecootech.market.SplashActivity:
+    private static final int dispalyRatingbarFull
+    private static final int dispalyRatingbarNull
+    private static final int loadingFinished
+    290:330:public void checkNetworkStyle()
+com.lecootech.market.adapter.GalleryAdapter:
+    int mGalleryItemBackground
+com.lecootech.market.adapter.InstallNecessaryAdapter:
+    private android.database.Cursor cursor
+    private boolean[] installState
+    private boolean[] selectState
+com.lecootech.market.adapter.OtherSoftwareGalleryAdapter:
+    int mGalleryItemBackground
+    private java.lang.String[] filename
+com.lecootech.market.adapter.SoftwareDownloadedAdapter:
+    public static java.lang.String currentPackage
+    141:142:public int getSwid(java.lang.String)
+com.lecootech.market.adapter.SoftwareDownloadingAdapter:
+    public static java.lang.String currentPackage
+    private android.content.SharedPreferences settingPreferences
+com.lecootech.market.adapter.SoftwareManagerAdapter:
+    private static final java.lang.String SCHEME
+    private static final java.lang.String APP_PKG_NAME_21
+    private static final java.lang.String APP_PKG_NAME_22
+    private static final java.lang.String APP_DETAILS_PACKAGE_NAME
+    private static final java.lang.String APP_DETAILS_CLASS_NAME
+    428:439:public int getManagerUpdatePosition(int,java.lang.String)
+com.lecootech.market.adapter.SoftwareSecondFloorAdapter:
+    146:148:public void changeItemNameWidthFlag(boolean)
+com.lecootech.market.common.ApplicationConstants:
+    public static final int main
+    public static final int update
+    public static final int cancel
+    public static final int webview
+    public static final int gallery
+    public static final int search
+    public static final int webTimeout
+    public static final int webTimeout2
+    public static final int exception
+    public static final int add_foot_view
+    public static final int remove_foot_view
+    public static final int dismiss
+    public static final int perPageSize
+    public static final java.lang.String store_download_apk_path
+    public static final java.lang.String store_download_pic_path
+    public static final java.lang.String system_download_apk_path
+    public static final java.lang.String system_download_pic_path
+com.lecootech.market.common.SharedPrefsUtil:
+    public static final java.lang.String SETTING
+    18:22:public static void putValue(android.content.Context,java.lang.String,boolean)
+    25:29:public static void putValue(android.content.Context,java.lang.String,java.lang.String)
+    39:42:public static boolean getValue(android.content.Context,java.lang.String,boolean)
+    46:49:public static java.lang.String getValue(android.content.Context,java.lang.String,java.lang.String)
+com.lecootech.market.common.Util:
+    static com.lecootech.market.common.SharedPrefsUtil realmname
+    private static final int ERROR
+    122:124:public static int getDisplayMetricsHeight(android.app.Activity)
+    153:163:public static java.util.ArrayList getInstallPackageName(android.content.Context)
+    168:179:public static java.lang.String getTextContent(java.lang.String,java.lang.String)
+    184:191:public static java.io.InputStream getContent(java.lang.String,java.lang.String)
+    195:203:public static byte[] getImage(java.lang.String)
+    207:215:public static byte[] readStream(java.io.InputStream)
+    220:366:public static void navigationEvent(android.app.Activity,int)
+    447:451:public static java.lang.Boolean isSystemApp(android.content.pm.ApplicationInfo)
+    854:858:public static void delFile(java.lang.String)
+    910:910:public static int getSystemVersion()
+    1298:1301:public static boolean isGpsEnabled(android.content.Context)
+    1495:1500:public static boolean isExistActivity(java.lang.String,java.lang.String,android.app.Activity)
+com.lecootech.market.common.Util$1
+com.lecootech.market.common.Util$2
+com.lecootech.market.common.Util$3
+com.lecootech.market.common.Util$4
+com.lecootech.market.common.Util$5
+com.lecootech.market.data.DownloadSoftwareData:
+    73:73:public java.lang.String getPackage()
+    82:82:public java.lang.String getCategoryID()
+com.lecootech.market.data.FourFloorData:
+    private java.lang.String createddate
+    57:57:public java.lang.String getHits()
+    84:84:public java.lang.String getLanguage()
+    93:93:public java.lang.String getUseMobile()
+    107:108:public void setCreateData(java.lang.String)
+    111:111:public java.lang.String getCreateData()
+    174:174:public java.lang.String getDeveloper_Autor_Name()
+    183:183:public java.lang.String getDeveloper_Phone()
+    192:192:public java.lang.String getDeveloper_Email()
+    201:201:public java.lang.String getDeveloper_Webpath()
+    210:210:public java.lang.String getCategory_Name()
+    219:219:public java.lang.String getFavority()
+    228:228:public java.lang.String getBcid()
+com.lecootech.market.data.InstallNecessaryData:
+    private java.lang.String hits
+    private java.lang.String download_num
+    private java.lang.String software_iamge_path
+    private java.lang.String author
+    31:31:public java.lang.String getCategoryID()
+    55:56:public void setHits(java.lang.String)
+    59:59:public java.lang.String getHits()
+    83:84:public void setDownload_Num(java.lang.String)
+    87:87:public java.lang.String getDownload_Num()
+    101:102:public void setSoftwareImagePath(java.lang.String)
+    105:105:public java.lang.String getSoftwareImagePath()
+    110:111:public void setAuthor(java.lang.String)
+    114:114:public java.lang.String getAuthor()
+com.lecootech.market.data.InstallNecessaryFloorData:
+    private java.lang.String hits
+    private java.lang.String download_num
+    private java.lang.String software_iamge_path
+    private java.lang.String categoryid
+    private java.lang.String author
+    27:28:public void setCategoryID(java.lang.String)
+    31:31:public java.lang.String getCategoryID()
+    55:56:public void setHits(java.lang.String)
+    59:59:public java.lang.String getHits()
+    83:84:public void setDownload_Num(java.lang.String)
+    87:87:public java.lang.String getDownload_Num()
+    96:96:public java.lang.String getScore()
+    101:102:public void setSoftwareImagePath(java.lang.String)
+    105:105:public java.lang.String getSoftwareImagePath()
+    110:111:public void setAuthor(java.lang.String)
+    114:114:public java.lang.String getAuthor()
+    159:159:public boolean getSelectState()
+com.lecootech.market.data.ManagerFloorData:
+    private java.lang.String bcid
+    private java.lang.String size
+    68:69:public void setSize(java.lang.String)
+    72:72:public java.lang.String getSize()
+com.lecootech.market.data.SearchHotData:
+    20:20:public java.lang.String getSwid()
+com.lecootech.market.data.SecondFloorData:
+    private java.lang.String createddate
+    31:31:public java.lang.String getBcid()
+    46:47:public void setCreateData(java.lang.String)
+    50:50:public java.lang.String getCreateData()
+com.lecootech.market.data.ThridFloorData:
+    private java.lang.String hits
+    private java.lang.String download_num
+    private java.lang.String author
+    53:54:public void setHits(java.lang.String)
+    57:57:public java.lang.String getHits()
+    81:82:public void setDownload_Num(java.lang.String)
+    85:85:public java.lang.String getDownload_Num()
+    108:109:public void setAuthor(java.lang.String)
+    112:112:public java.lang.String getAuthor()
+com.lecootech.market.data.ThridFloorSpecialData
+com.lecootech.market.data.UpdateManagerReturnData
+com.lecootech.market.data.UpdateManagerSendData
+com.lecootech.market.data.UpdateMarketData:
+    private java.lang.String name
+    private java.lang.String date
+    18:19:public void setName(java.lang.String)
+    22:22:public java.lang.String getName()
+    36:37:public void setDate(java.lang.String)
+    40:40:public java.lang.String getDate()
+com.lecootech.market.database.CollectionDatabase:
+    public static final java.lang.String KEY_ROWID
+    public static final java.lang.String KEY_SWID
+    public static final java.lang.String KEY_NAME
+    public static final java.lang.String KEY_SIZE
+    public static final java.lang.String KEY_DATE
+    public static final java.lang.String KEY_IMAGE_PATH
+    public static final java.lang.String KEY_DOWNLOAD_PATH
+    public static final java.lang.String KEY_PACKAGE
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String TABLE_NAME
+    private static final java.lang.String CREATE_DATABASE
+    66:68:public void deleteData(long)
+    105:105:public boolean isOpening()
+com.lecootech.market.database.DownloadDatabase:
+    public static final java.lang.String KEY_NAME
+    public static final java.lang.String KEY_ROWID
+    public static final java.lang.String KEY_DOWNLOND_NUM
+    public static final java.lang.String KEY_ICON_PATH
+    public static final java.lang.String KEY_PACKAGE_NAME
+    public static final java.lang.String KEY_INSTALL
+    public static final java.lang.String KEY_WEBPATH
+    public static final java.lang.String KEY_FILEPATH
+    public static final java.lang.String KEY_DOWNLOAD_LENGTH
+    public static final java.lang.String KEY_OPERATION
+    public static final java.lang.String KEY_SIZE
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String TABLE_NAME
+    private static final java.lang.String CREATE_DATABASE
+    77:91:public long updateData(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.String,java.lang.String,int,int,java.lang.String)
+    95:98:public void updateInstallValue(long,int)
+    172:174:public void updateDownloadNum(java.lang.String,int)
+    177:179:public void updateDownloadLength(java.lang.String,int)
+    200:202:public void updateDownloadInstallFlag(java.lang.String,int)
+    205:207:public void updateDownloadInstallFlagByPackage(java.lang.String,int)
+    210:218:public java.lang.String getDownloadUrl(java.lang.String)
+com.lecootech.market.database.GalleryDatabase:
+    public static final java.lang.String KEY_NAME
+    public static final java.lang.String KEY_ROWID
+    public static final java.lang.String KEY_PATH
+    public static final java.lang.String KEY_WEBPATH
+    public static final java.lang.String KEY_IMAGEID
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String TABLE_NAME
+    private static final java.lang.String CREATE_DATABASE
+    61:67:public long updateData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    96:103:public android.database.Cursor queryAllData()
+    119:120:public void close()
+com.lecootech.market.database.ItemPicDatabase:
+    public static final java.lang.String KEY_ROWID
+    public static final java.lang.String KEY_NAME
+    public static final java.lang.String KEY_PARENT_NAME
+    public static final java.lang.String KEY_PATH
+    public static final java.lang.String KEY_DATE
+    public static final java.lang.String KEY_BIGIMAGE_PATH
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String TABLE_NAME
+    private static final java.lang.String CREATE_DATABASE
+    73:75:public void deleteData(long)
+    78:80:public void deleteDataByPicpath(java.lang.String)
+    83:85:public void deleteData(java.lang.String,java.lang.String)
+    88:95:public android.database.Cursor queryAllData()
+    118:118:public boolean isOpening()
+com.lecootech.market.database.UpdateManagerDatabase:
+    public static final java.lang.String KEY_ROWID
+    public static final java.lang.String KEY_PACKAGE
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String TABLE_NAME
+    private static final java.lang.String CREATE_DATABASE
+    50:52:public void deleteData(long)
+    55:57:public void deleteDataByName(java.lang.String)
+    60:67:public android.database.Cursor queryAllData()
+    85:85:public boolean isOpening()
+com.lecootech.market.download.DownladUtil:
+    static com.lecootech.market.common.SharedPrefsUtil realmname
+com.lecootech.market.download.GalleryImagePageTask
+com.lecootech.market.download.MyDownloadService:
+    private android.net.ConnectivityManager cwjManager
+    private com.lecootech.market.database.DownloadDatabase downloadDatabase
+    private int Flag
+com.lecootech.market.handle.DataSet:
+    92:92:public java.lang.String getImageArray()
+    101:101:public java.lang.String getImageArrayID()
+    137:137:public java.util.ArrayList getThridFloorSpecialDatas()
+    141:141:public com.lecootech.market.data.ThridFloorSpecialData getThridFloorSpecialData()
+    150:150:public java.lang.String getSpecialSoftwareIntroduce()
+com.lecootech.market.notification.PackageName:
+    20:23:public static java.util.List getpackageName(android.content.Context)
+    54:63:public static java.lang.String[] getEdition(android.content.Context)
+com.lecootech.market.notification.StartService:
+    private com.lecootech.market.adapter.SoftwareManagerAdapter softwareManagerAdapter
+    static final int NOTIFICATION_ID
+com.lecootech.xml.SoftwareInfo:
+    11:11:public java.lang.String getName()
+    19:19:public java.lang.String getDownloadpath()
+    27:27:public java.lang.String getSwid()
+    35:35:public java.lang.String getPackagename()
+    45:45:public java.lang.String getEdition()
+com.mobclick.android.MobclickAgent:
+    public static org.json.JSONObject getUpdateInfo()
+    public static void setUpdateOnlyWifi(boolean)
+    public static void setUpdateListener(com.mobclick.android.UmengUpdateListener)
+    public static void openActivityDurationTrack(boolean)
+    public static void setDefaultReportPolicy(android.content.Context,int)
+    public static void onError(android.content.Context)
+    public static void flush(android.content.Context)
+    public static void update(android.content.Context)
+    public static void onEvent(android.content.Context,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    public static void enterPage(android.content.Context,java.lang.String)
+    private synchronized void a(android.content.Context,java.lang.String)
+    private synchronized void c(android.content.Context)
+    private void d(android.content.Context)
+    public static void setOpenGLContext(javax.microedition.khronos.opengles.GL10)
+    public static java.lang.String getConfigParams(android.content.Context,java.lang.String)
+    private static java.lang.String n(android.content.Context)
+    private static void a(android.content.Context,int)
+    public static void updateOnlineConfig(android.content.Context)
+    private synchronized void f(android.content.Context,java.lang.String)
+com.mobclick.android.ReportPolicy
+com.mobclick.android.UmengConstants:
+    public static final java.lang.String OS
+    public static final java.lang.String SDK_TYPE
+    public static final java.lang.String SDK_VERSION
+    public static final long kContinueSessionMillis
+    public static final int DEFAULT_TIMEZONE
+    public static final java.lang.String LOG_TAG
+    public static final java.lang.String CONFIG_URL
+    public static final java.lang.String CONFIG_URL_BACK
+    public static final java.lang.String FEEDBACK_BASE_URL
+    public static final java.lang.String FEEDBACK_UER_REPLY_URL
+    public static final java.lang.String FEEDBACK_Dev_Reply_URL
+    public static final java.lang.String FEEDBACK_NewFeedback_URL
+    public static final java.lang.String FEEDBACK_ClearNewReplyState_URL
+    public static final java.lang.String FEEDBACK_HasNewReply_URL
+    public static final java.lang.String FEEDBACK_REPLY_URL
+    public static final java.lang.String FEEDBACK_Url_RetrieveUserInfo
+    public static final java.lang.String FeedbackPreName
+    public static final java.lang.String TempPreName
+    public static final java.lang.String FailPreName
+    public static final java.lang.String PreName_Trivial
+    public static final java.lang.String TrivialPreKey_newreplyIds
+    public static final java.lang.String TrivialPreKey_MaxSeqenceNum
+    public static final java.lang.String TrivialPreKey_MaxReplyID
+    public static final java.lang.String TrivialPreKey_Email
+    public static final java.lang.String TrivialPreKey_AgeGroup
+    public static final java.lang.String TrivialPreKey_Sex
+    public static final java.lang.String PreName_ReplyId
+    public static final java.lang.String AtomKey_SequenceNum
+    public static final java.lang.String AtomKey_Content
+    public static final java.lang.String AtomKey_Thread_Title
+    public static final java.lang.String AtomKey_Date
+    public static final java.lang.String AtomKey_User_ID
+    public static final java.lang.String AtomKey_FeedbackID
+    public static final java.lang.String AtomKey_AgeGroup
+    public static final java.lang.String AtomKey_Sex
+    public static final java.lang.String AtomKey_Email
+    public static final java.lang.String AtomKey_AppKey
+    public static final java.lang.String AtomKey_Index
+    public static final java.lang.String AtomKey_Lat
+    public static final java.lang.String AtomKey_Lng
+    public static final java.lang.String AtomKey_Message
+    public static final java.lang.String AtomKey_SDK_Version
+    public static final java.lang.String AtomKey_AppVersion
+    public static final java.lang.String AtomKey_OSVersion
+    public static final java.lang.String AtomKey_DeviceModel
+    public static final java.lang.String AtomKeyReplyId
+    public static final java.lang.String AtomKey_State
+    public static final java.lang.String Atom_State_Error
+    public static final java.lang.String Atom_State_OK
+    public static final java.lang.String AtomKey_Type
+    public static final java.lang.String Atom_Type_UserReply
+    public static final java.lang.String Atom_Type_NewFeedback
+    public static final java.lang.String Atom_Type_DevReply
+    public static final java.lang.String Atom_Type_Responce
+    public static final java.lang.String FailState
+    public static final java.lang.String TempState
+    public static final java.lang.String OKState
+    public static final java.lang.String PostFeedbackBroadcast
+    public static final java.lang.String PostFeedbackBroadcast_Fail
+    public static final java.lang.String PostFeedbackBroadcast_Succeed
+    public static final java.lang.String RetrieveReplyBroadcastAction
+    public static final int RetrieveReplyBroadcast_Fail
+    public static final int RetrieveReplyBroadcast_HasReply
+    public static final int RetrieveReplyBroadcast_NoReply
+    public static final java.lang.String HasNewReplyBroadcast
+    public static final int HasNewReplyBroadcast_Yes
+    public static final int HasNewReplyBroadcast_No
+    public static final java.lang.String PostFeedbackBroadcastAction
+    public static final java.lang.String NewReplyNotifyType
+    public static final int NotificationBanner
+    public static final int NotificationPopout
+    public static final java.lang.String NewReplyContent
+com.mobclick.android.a:
+    public boolean a()
+    public static boolean b()
+    public void a(java.lang.String)
+    public void b(java.lang.String)
+    public void a(int)
+    public void a(boolean)
+com.mobclick.android.j:
+    j(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int,int)
+    j(android.content.Context,java.lang.String,int)
+com.mobclick.android.l:
+    public static void a(android.content.Context)
+    public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    public static int a(java.util.Date,java.util.Date)
+    public static java.util.Date d(android.content.Context)
+    public static void a(android.content.Context,java.util.Date)

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grobal_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/include_top"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/other_top_bar_weight_height"
+        android:background="@drawable/list_header_bar_bg_weight"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/type_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="name"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dip"
+            android:textSize="@dimen/font_size_l" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_navigation1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/manager_top_bar_bg"
+            android:orientation="horizontal" >
+
+
+
+                <RelativeLayout
+                    android:id="@+id/linear_left"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/left_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="最近更新"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_size_m" >
+                    </TextView>
+                </RelativeLayout>
+            
+
+   
+                <RelativeLayout
+                    android:id="@+id/linear_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/right_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="最多下载"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_size_m" >
+                    </TextView>
+                </RelativeLayout>
+            </LinearLayout>
+
+         <ImageView
+            android:id="@+id/div_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/gallery_diver" >
+        </ImageView>
+    </RelativeLayout>
+    <!-- 中间动态加载View -->
+
+    <LinearLayout
+        android:id="@+id/containerBody"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:measureAllChildren="true" >
+    </LinearLayout>
+
+</LinearLayout>
